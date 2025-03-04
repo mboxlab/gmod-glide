@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/reshed_glide/marsshal/apc_wheeled_01_base_co"
+	"$nocull" "1"
+}

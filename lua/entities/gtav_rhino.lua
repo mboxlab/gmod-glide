@@ -4,7 +4,7 @@ ENT.Type = "anim"
 ENT.Base = "base_glide_tank"
 ENT.PrintName = "Rhino"
 
-ENT.GlideCategory = "Default"
+ENT.GlideCategory = "Ground"
 ENT.ChassisModel = "models/gta5/vehicles/rhino/chassis.mdl"
 
 DEFINE_BASECLASS( "base_glide_tank" )

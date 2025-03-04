@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/lfs/f18-f_superhornet/f18_landgear"
+	"$bumpmap"    "models/lfs/f18-f_superhornet/f18_body_normal"
+    $envmap "env_cubemap"
+    $nocull 1
+    $envmaptint "[0.02 0.02 0.02]"
+    $envmapfresnel "1"
+	"$normalmapalphaenvmapmask" "1"
+    $phong "1"
+    $phongexponent "30"
+    $phongboost "0.4"
+    $phongfresnelranges "[.05 .3 1]"
+}

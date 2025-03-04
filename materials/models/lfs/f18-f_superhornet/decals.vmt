@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/lfs/f18-f_superhornet/misc/decals"
+    $nocull 1
+	$translucent 1
+}

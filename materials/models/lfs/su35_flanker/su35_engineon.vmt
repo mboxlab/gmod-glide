@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/lfs/su35_flanker/su35_engineon"
+	"$bumpmap"    "models/lfs/su35_flanker/su35_normal"
+    $envmap "env_cubemap"
+    $nocull 1
+    $envmaptint "[0.002 0.002 0.002]"
+    $phong "1"
+    $phongboost "0.001"
+     	 $selfillum 1
+   	 $selfillummask "models/lfs/su35_flanker/engine_selfillum"
+}

@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/lfs/f18-f_superhornet/f18_interior"
+	"$bumpmap"    "models/lfs/f18-f_superhornet/f18_interior_bump"
+    $envmap "env_cubemap"
+    $envmaptint "[0.02 0.02 0.02]"
+    $envmapfresnel "1"
+	"$normalmapalphaenvmapmask" "1"
+    $phong "1"
+    $phongexponent "10"
+    $phongboost "1"
+    $phongfresnelranges "[.05 .3 1]"
+
+    $selfillum 1
+    $selfillummask 	"models/lfs/f18-f_superhornet/f18_interior_si"
+}

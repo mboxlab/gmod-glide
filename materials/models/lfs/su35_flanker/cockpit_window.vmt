@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/lfs/su35_flanker/misc/window"
+	"$bumpmap"    "models/lfs/su35_flanker/misc/window_normal"
+	"$nodecal" "1"
+	"$translucent" 1
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "5" 
+	"$phongexponent" "30"
+	"$phongfresnelranges" "[4 1 4]"
+	"$surfaceprop" "Glass"
+	"$nocull" 1
+	"$phongexponenttexture" "models/lfs/su35_flanker/misc/window_exponent"
+ }

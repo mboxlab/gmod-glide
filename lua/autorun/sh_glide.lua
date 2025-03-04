@@ -38,9 +38,13 @@ Glide.LOCKON_WHITELIST = {
     ["base_glide_heli"] = true,
     ["base_glide_plane"] = true,
     ["base_glide_motorcycle"] = true,
-    ["prop_vehicle_prisoner_pod"] = true
+    ["prop_vehicle_prisoner_pod"] = true,
+    ["glide_gtav_armed_heli"] = true,
+    ["glide_gtav_blimp"] = true,
+    ["glide_gtav_polmav"] = true,
+    ["glide_gtav_skylift"] = true,
+    ["glide_gtav_swift"] = true,
 }
-
 -- Mouse flying control modes
 Glide.MOUSE_FLY_MODE = {
     AIM = 0,        -- Point-to-aim
@@ -197,6 +201,21 @@ CreateConVar( "glide_gib_lifetime", "8", FCVAR_ARCHIVE + FCVAR_NOTIFY, "Lifetime
 CreateConVar( "glide_gib_enable_collisions", "1", FCVAR_ARCHIVE + FCVAR_NOTIFY, "When set to 0, gibs wont collide with players/props.", 0, 1 )
 
 list.Set( "ContentCategoryIcons", "Glide", "materials/glide/icons/car.png" )
+
+list.Set( "GlideCategories", "Helicopters", {
+    name = "Helicopters",
+    icon = "glide/icons/helicopter.png"
+} )
+
+list.Set( "GlideCategories", "Ground", {
+    name = "Ground",
+    icon = "glide/icons/tank.png"
+} )
+
+list.Set( "GlideCategories", "Planes", {
+    name = "Planes",
+    icon = "glide/icons/plane.png"
+} )
 
 function Glide.Print( str, ... )
     MsgC( Color( 0, 0, 255 ), "[Glide] ", color_white, string.format( str, ... ), "\n" )

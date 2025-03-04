@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/lfs/su35_flanker/r27_diff"
+	"$bumpmap"    "models/lfs/su35_flanker/r27_normal"
+    $envmap "env_cubemap"
+    $envmaptint "[0.02 0.02 0.02]"
+    $envmapfresnel "1"
+	"$normalmapalphaenvmapmask" "1"
+    $phong "1"
+    $phongexponent "50"
+    $phongboost "7"
+    $phongfresnelranges "[.05 .3 1]"
+}

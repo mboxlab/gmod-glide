@@ -4,7 +4,7 @@ ENT.Type = "anim"
 ENT.Base = "base_glide_car"
 ENT.PrintName = "Blazer"
 
-ENT.GlideCategory = "Default"
+ENT.GlideCategory = "Ground"
 ENT.ChassisModel = "models/gta5/vehicles/blazer/chassis.mdl"
 ENT.MaxChassisHealth = 700
 

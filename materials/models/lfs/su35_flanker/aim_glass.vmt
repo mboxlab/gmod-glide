@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/lfs/su35_flanker/misc/aim_glass"
+	"$nocull" "0"
+	"$translucent" 1
+ }

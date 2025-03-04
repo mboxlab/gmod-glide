@@ -5,7 +5,7 @@ ENT.Type = "anim"
 ENT.Base = "base_glide_plane"
 ENT.PrintName = "B-11 Strikeforce"
 
-ENT.GlideCategory = "Default"
+ENT.GlideCategory = "Planes"
 ENT.ChassisModel = "models/gta5/vehicles/strikeforce/chassis.mdl"
 ENT.MaxChassisHealth = 1800
 

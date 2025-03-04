@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\reshed_glide\shared\glass"
+	"$bumpmap" "models\reshed_glide\shared\glass_nrm"
+	"$translucent" 1
+	"$nodraw" 1
+}

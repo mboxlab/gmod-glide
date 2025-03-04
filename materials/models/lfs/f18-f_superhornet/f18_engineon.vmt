@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/lfs/f18-f_superhornet/f18_engineon"
+	"$bumpmap"    "models/lfs/f18-f_superhornet/f18_body_normal"
+    $nocull 1
+    $phong "1"
+    $phongboost "0.001"
+
+    $selfillum 1
+    $selfillummask 	"models/lfs/f18-f_superhornet/f18_engineon_si"
+}

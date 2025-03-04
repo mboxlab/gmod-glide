@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/lfs/su35_flanker/cockpit"
+	"$bumpmap" "models/lfs/su35_flanker/cockpit_bump"
+ 	 $selfillum 1
+   	 $selfillummask "models/lfs/su35_flanker/cockpit_selfillum"
+	$phong 1
+	$phongboost 0.1
+}

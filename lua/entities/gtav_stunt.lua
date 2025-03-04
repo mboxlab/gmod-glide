@@ -5,7 +5,7 @@ ENT.Type = "anim"
 ENT.Base = "base_glide_plane"
 ENT.PrintName = "Mallard"
 
-ENT.GlideCategory = "Default"
+ENT.GlideCategory = "Planes"
 ENT.ChassisModel = "models/gta5/vehicles/stunt/chassis.mdl"
 
 ENT.PropOffset = Vector( 114, 0, 3 )

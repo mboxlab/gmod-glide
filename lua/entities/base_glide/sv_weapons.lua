@@ -67,11 +67,11 @@ function ENT:SelectWeaponIndex( index )
     -- Trigger the "stop fire" event from the current weapon
     local lastWeaponIndex = self:GetWeaponIndex()
     local lastWeapon = self.weapons[lastWeaponIndex]
+    if not lastWeapon then return end
 
-    if lastWeapon and lastWeapon.isFiring then
+    if lastWeapon.isFiring then
         self:OnWeaponStop( lastWeapon, lastWeaponIndex )
     end
-
     -- Share the ammo count, reload and fire cooldowns
     -- between all other weapons with the same ammo type
     for i, otherWeapon in ipairs( self.weapons ) do
