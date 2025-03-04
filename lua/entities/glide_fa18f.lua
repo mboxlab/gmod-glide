@@ -5,8 +5,6 @@ ENT.Type = "anim"
 ENT.Base = "base_glide_plane"
 ENT.PrintName = "F/A-18F Superhornet"
 
-ENT.Spawnable = false
-
 ENT.GlideCategory = "Planes"
 ENT.ChassisModel = "models/lfs_merydian/jets/f18f/f18f.mdl"
 ENT.MaxChassisHealth = 500
